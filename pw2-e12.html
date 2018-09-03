@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+    <script src="pw2-e12.js"></script>
+    <link rel="stylesheet" type="text/css" href="pw2-e12.css" />
+</head>
+<body>
+  <div class="instrucciones">
+      <h1>Palabra misteriosa</h1>
+      <p>
+         Adivina la palabra misteriosa tecleando una letra a la vez.
+     </p>
+  </div>
+  <div id="content">
+    <form onsubmit="return adivinar()">
+      <h3>Intentos restantes: <span id="intentos">0</span></h3>
+      <div>Palabra misteriosa</div>
+      <h2 id="palabra"></h2>
+      <input type="text" maxlength="1" id="letra" autocomplete="off" placeholder="?"/><br>
+      <input type="submit" value="Adivinar" class="btn">
+      <input type="button" value="Significado"  class="btn" onclick="mostrarSignificado()" id="significado"/>
+    </form>
+  </div>
+</body>
+</html>
