@@ -19,4 +19,5 @@ Elabora el juego de Palabra Misteriosa (ahorcado) en JavaScript.
 ### Retos
 
 1. Botón "Reiniciar" el cual inicie un nuevo juego, equivalente a presionar F5.
-2. Agregar una lista con las Palabras Misteriosas pasadas, la cual se mantenga incluso después de cerrar el navegador ([localStorage](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web "Ver más sobre localStorage")).
+2. En lugar de las alertas "Ganaste" y "Perdiste", implementa otra forma de notificación.
+3. Agregar en pantalla una lista con las Palabras Misteriosas que han pasado, la cual se mantenga incluso después de cerrar el navegador (Consulta sobre [localStorage](https://developer.mozilla.org/es/docs/Web/API/API_de_almacenamiento_web/Usando_la_API_de_almacenamiento_web "Ver más sobre localStorage"))
