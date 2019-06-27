@@ -8,8 +8,7 @@ function adivinar(){
   return false;
 }
 
-function mostrarPalabraMisteriosa(){
-
+function mostrarBotonSignificado(){
   document.getElementById('significado').style.display = 'initial';
 }
 
