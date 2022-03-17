@@ -65,7 +65,7 @@ function buscarPalabra(){       //this will read file and send information to ot
            }
        }
 
-       xmlhttp.open("GET", "https://raw.githubusercontent.com/jrsg/pw2-e12/master/palabras.txt?token=AL1uUjbn_eBIL64HE2Sqls8-2DSh93osks5blopSwA%3D%3D", true);
+       xmlhttp.open("GET", "https://raw.githubusercontent.com/jrsg/pw2-e12-2018/master/palabras.txt?token=AL1uUjbn_eBIL64HE2Sqls8-2DSh93osks5blopSwA%3D%3D", true);
        xmlhttp.send();
 }
 
